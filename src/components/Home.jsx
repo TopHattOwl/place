@@ -1,4 +1,5 @@
 import React from 'react';
+import backgroundImg from '../assets/background.jpg';
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       id="home"
       className="text-center py-5"
       style={{
-        backgroundImage: `url('/src/assets/background.jpg')`,
+        backgroundImage: `url(${backgroundImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
